@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sileder</title>
+<!--        <link rel="stylesheet" href="font-awsem/css/all.css">-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+	</head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <div class="input-text">
+                    <textarea class="text-from" placeholder="Enter text"></textarea>
+                    <textarea class="text-to" placeholder="Translation" accesskey="" disabled></textarea>
+                </div>
+                <ul class="control">
+                    <li class="row from">
+                        <div class="icons">
+                            <i id="from" class="fas fa-volume-up"></i>
+                            <i id="from1" class="fas fa-copy"></i>
+                        </div>
+                        <select>
+                        </select>
+                    </li>
+                    <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+                    <li class="row from">
+                        <select>
+                        </select>
+                        <div class="icons">
+                            <i id="to" class="fas fa-volume-up"></i>
+                            <i id="to1" class="fas fa-copy"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button type="button">Translate Text</button>
+        </div>
+    	<script src="js/countries.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

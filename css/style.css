@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: #5372F0;
+}
+
+.container {
+  width: 650px;
+  height: auto;
+  border-radius: 5px;
+  padding: 20px;
+  background: #fff;
+}
+.container .wrapper {
+  width: 100%;
+  border: 1.5px solid #9f9f9f;
+}
+.container .wrapper .input-text {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  border-bottom: 1.5px solid #9f9f9f;
+}
+.container .wrapper .input-text .text-from, .container .wrapper .input-text .text-to {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  font-size: 18px;
+  resize: none;
+  background: #fff;
+}
+.container .wrapper .input-text .text-to {
+  border-left: 1.5px solid #9f9f9f;
+}
+.container .control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 12px 15px;
+}
+.container .control .exchange {
+  font-size: 18px;
+  color: #9f9f9f;
+  cursor: pointer;
+}
+.container .control .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .control .row .icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 38%;
+}
+.container .control .row .icons i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 50px;
+  font-size: 18px;
+  color: #9f9f9f;
+}
+.container .control .row .icons:nth-child(1) {
+  padding-right: 15px;
+  border-right: 2px solid #999;
+}
+.container .control .row .icons:nth-child(2) {
+  padding-left: 15px;
+  border-left: 2px solid #999;
+}
+.container .control .row .icons:nth-child(2) i {
+  text-align: right;
+}
+.container .control .row select {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+  background: none;
+}
+.container button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #5372F0;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 651px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+  }
+  .container .wrapper .input-text .text-from, .container .wrapper .input-text .text-to {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+  .container .control {
+    padding: 10px 14px;
+  }
+  .container .control .exchange {
+    font-size: 12px;
+  }
+  .container .control .row .icons {
+    width: 25%;
+  }
+  .container .control .row .icons i {
+    width: 25px;
+    font-size: 12px;
+  }
+  .container .control .row select {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
